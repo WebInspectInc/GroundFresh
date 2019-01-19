@@ -114,10 +114,11 @@ h1, h2, h3, h4 {
 }
     .site-header--right {
         position: absolute;
-        right: 0;
+        left: 50%;
         top: 0;
         height: 100%;
         width: 40%;
+        max-width: 700px;
         font-size: 2vw;
         display: flex;
         align-items: center;
@@ -142,7 +143,7 @@ h1, h2, h3, h4 {
 .site-footer {
     font-family: 'Staatliches', sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 64px 16px;
     margin: 0;
     color: white;
