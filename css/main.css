@@ -10,6 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -98,14 +103,55 @@ textarea {
    ========================================================================== */
 
 
+h1, h2, h3, h4 {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.site-header {
+    color: white;
+    background: #040726 url('../img/coffee-header-desktop.jpg') 25% center no-repeat;
+    min-height: 700px;
+}
+    .site-header--right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 40%;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .site-h1 {
+        margin-top: 0;
+    }
 
 
+.site-content {
+    padding: 64px 16px;
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.6;
+}
 
 
+.site-footer {
+    font-family: 'Staatliches', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 64px 16px;
+    margin: 0;
+    color: white;
+    background: #040726 url('../img/coffee-bg-desktop.jpg') center no-repeat;
+}
 
-
-
-
+    .tagline-copy {
+        margin: 0;
+    }
 
 
 
